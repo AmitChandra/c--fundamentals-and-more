@@ -1,17 +1,17 @@
-🌟 C# Fundamentals
-✨ What is C#?
-C# (pronounced "C-Sharp") is a modern, object-oriented programming language.
+# ✨ What is C#?
 
-Developed by Microsoft as part of its .NET platform.
+- C# (pronounced "C-Sharp") is a modern, object-oriented programming language.
 
-It’s used for building web apps, desktop apps, mobile apps, games (with Unity), and more.
+- Developed by Microsoft as part of its .NET platform.
 
-🛠️ Basic Concepts of C#
+- It’s used for building web apps, desktop apps, mobile apps, games (with Unity), and more.
+
+## 🛠️ Basic Concepts of C#
 
 1. Variables and Data Types
 2. Variables store data.
 
-C# is strongly typed, meaning you must specify the data type.
+### C# is strongly typed, meaning you must specify the data type.
 
 ```int age = 25;
 string name = "John";
@@ -23,9 +23,9 @@ double price = 19.99;
 
 int, float, double, bool, string, char, decimal
 
-🛠️ Basic Concepts of C#
+##🛠️ Basic Concepts of C#
 
-# 1. Variables and Data Types
+### 1. Variables and Data Types
 
 - Variables store data.
 - C# is strongly typed, meaning you must specify the data type.
@@ -36,13 +36,14 @@ bool isStudent = true;
 double price = 19.99;
 ```
 
-# 2. Control Statements
+### 2. Control Statements
 
 - These let you control the flow of the program:
 
 - If-Else
 
-```if (age > 18)
+```
+if (age > 18)
 {
     Console.WriteLine("Adult");
 }
@@ -75,7 +76,7 @@ for (int i = 0; i < 5; i++)
 }
 ```
 
-# 3. Object-Oriented Programming (OOP)
+### 3. Object-Oriented Programming (OOP)
 
 ### C# is heavily based on OOP principles:
 
@@ -91,7 +92,7 @@ for (int i = 0; i < 5; i++)
 
 - Abstraction: Hiding complexity and showing only important details.
 
-# Example of a simple class:
+## Example of a simple class:
 
 ```
 class Car
@@ -103,7 +104,7 @@ Car myCar = new Car();
 Console.WriteLine(myCar.color);
 ```
 
-# 4. Methods (Functions)
+### 4. Methods (Functions)
 
 - Reusable blocks of code that perform a task.
 
@@ -123,7 +124,7 @@ Console.WriteLine($"Hello {name}!");
 }
 ```
 
-# 5. Properties and Fields
+### 5. Properties and Fields
 
     - Fields are variables inside a class.
 
@@ -139,7 +140,7 @@ public string Name
 }
 ```
 
-6. Namespaces
+### 6. Namespaces
 
 - Organize code into groups.
 
@@ -158,7 +159,7 @@ namespace MyApplication
 }
 ```
 
-7. Exception Handling
+### 7. Exception Handling
 
 - Deal with unexpected errors.
 
@@ -177,7 +178,7 @@ finally
 }
 ```
 
-# 🖥️ C# Development Tools
+## 🖥️ C# Development Tools
 
 - Visual Studio (most popular IDE for C#)
 
